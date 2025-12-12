@@ -1,0 +1,8 @@
+name: yamosahil
+on: push
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print the masseg
+        run: echo "welcom"
